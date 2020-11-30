@@ -11,8 +11,7 @@ namespace API.Data
         public DataContext(DbContextOptions options): base(options)
         {
 
-        }
-        public DbSet<Member> Members { get; set; }
+        }        
         public DbSet<Doctor> Doctors { get; set; }
         public DbSet<Patient> Patients { get; set; }
     }
